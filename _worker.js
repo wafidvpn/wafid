@@ -16,7 +16,7 @@ const neko = "Y2xhc2g=";
 const PORTS = [443, 80];
 const PROTOCOLS = [atob(horse), atob(flash), "ss"];
 const SUB_PAGE_URL = "https://foolvpn.me/nautica";
-const KV_PRX_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/kvProxyList.json";
+const KV_PRX_URL = "https://raw.githubusercontent.com/wafidvpn/wafid/refs/heads/main/kvProxyList.json";
 const PRX_BANK_URL = "https://raw.githubusercontent.com/DarkFacebookNet378/Rahasia/refs/heads/main/naoncing-v2-sg-id.txt";
 const DNS_SERVER_ADDRESS = "1.1.1.1";
 const DNS_SERVER_PORT = 53;
