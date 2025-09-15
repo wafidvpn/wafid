@@ -1,8 +1,8 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-let serviceName = "wafid01";
-let APP_DOMAIN = "wafid01.wafidvpn.workers.dev";
+let serviceName = "wafid02";
+let APP_DOMAIN = "wafid02.wafidvpn.workers.dev";
 
 let prxIP = "";
 let cachedPrxList = [];
@@ -16,9 +16,9 @@ const neko = "Y2xhc2g=";
 const PORTS = [443, 80];
 const PROTOCOLS = [atob(horse), atob(flash), "ss"];
 const SUB_PAGE_URL = "https://foolvpn.me/nautica";
-const KV_PRX_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/kvProxyListttttt.json";
+const KV_PRX_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Nautica/refs/heads/main/kvProxyList.json";
 const PRX_BANK_URL = "https://raw.githubusercontent.com/DarkFacebookNet378/Rahasia/refs/heads/main/naoncing-v2-sg-id.txt";
-const DNS_SERVER_ADDRESS = "8.8.8.8";
+const DNS_SERVER_ADDRESS = "1.1.1.1";
 const DNS_SERVER_PORT = 53;
 const RELAY_SERVER_UDP = {
   host: "udp-relay.hobihaus.space", // Kontribusi atau cek relay publik disini: https://hub.docker.com/r/kelvinzer0/udp-relay
