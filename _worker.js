@@ -1,8 +1,8 @@
 import { connect } from "cloudflare:sockets";
 
 // Variables
-let serviceName = "wafid02";
-let APP_DOMAIN = "wafid02.wafidvpn.workers.dev";
+let serviceName = "wafid03";
+let APP_DOMAIN = "wafid03.wafidvpn.workers.dev";
 
 let prxIP = "";
 let cachedPrxList = [];
